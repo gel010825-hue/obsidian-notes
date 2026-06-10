@@ -4,8 +4,24 @@
 .obsidian/workspace-mobile.json
 .obsidian/hotkeys.json
 
-# === 插件 & 主题缓存 ===
-.obsidian/plugins/
+# === 插件 ===
+# 忽略所有插件目录…
+.obsidian/plugins/*
+# …但追踪 obsidian-git（跨设备同步必需）
+!.obsidian/plugins/obsidian-git
+# obsidian-git 源码/构建产物不追踪
+.obsidian/plugins/obsidian-git/src/
+.obsidian/plugins/obsidian-git/node_modules/
+.obsidian/plugins/obsidian-git/package.json
+.obsidian/plugins/obsidian-git/package-lock.json
+.obsidian/plugins/obsidian-git/tsconfig.json
+.obsidian/plugins/obsidian-git/esbuild.config.mjs
+.obsidian/plugins/obsidian-git/.gitignore
+.obsidian/plugins/obsidian-git/README.md
+.obsidian/plugins/obsidian-git/LICENSE
+.obsidian/plugins/obsidian-git/CHANGELOG.md
+
+# === 主题 ===
 .obsidian/themes/
 
 # === 回收站 ===
