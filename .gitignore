@@ -1,0 +1,25 @@
+# Obsidian
+# === 工作区状态（频繁变动，不追踪）===
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+
+# === 插件 & 主题缓存 ===
+.obsidian/plugins/
+.obsidian/themes/
+
+# === 回收站 ===
+.trash/
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 临时文件 ===
+*.tmp
+*~
+~$*
+
+# === 附件过大警告 ===
+# 如需追踪图片，建议设置 git-lfs
